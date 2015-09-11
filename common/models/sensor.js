@@ -1,3 +1,3 @@
-module.exports = function(Sensor) {
+module.exports = function (Sensor) {
 
 };
