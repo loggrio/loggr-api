@@ -1,8 +1,8 @@
 {
   "name": "Sensor",
   "base": "PersistedModel",
-  "idInjection": true,
   "strict": true,
+  "idInjection": true,
   "options": {
     "validateUpsert": true
   },
@@ -47,5 +47,5 @@
       "permission": "ALLOW"
     }
   ],
-  "methods": []
+  "methods": {}
 }
