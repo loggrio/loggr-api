@@ -1,6 +1,7 @@
 {
   "name": "loggrio-api",
   "version": "0.1.0",
+  "private": true,
   "main": "server/server.js",
   "scripts": {
     "pretest": "jshint ."
@@ -9,19 +10,16 @@
     "compression": "^1.6.0",
     "cors": "^2.7.1",
     "errorhandler": "^1.4.2",
-    "loopback": "^2.23.0",
-    "loopback-boot": "^2.14.0",
-    "loopback-connector-mongodb": "^1.13.0",
-    "loopback-datasource-juggler": "^2.41.1",
+    "loopback": "^2.25.0",
+    "loopback-boot": "^2.14.2",
     "loopback-component-explorer": "^2.1.1",
-    "serve-favicon": "^2.3.0"
+    "loopback-component-storage": "^1.6.0",
+    "loopback-connector-mongodb": "^1.13.1",
+    "loopback-datasource-juggler": "^2.43.0",
+    "serve-favicon": "^2.3.0",
+    "socket.io": "^1.3.7"
   },
   "devDependencies": {
     "jshint": "^2.8.0"
-  },
-  "repository": {
-    "type": "",
-    "url": ""
-  },
-  "description": "loggrio-api"
+  }
 }
