@@ -29,7 +29,7 @@
       "ref"  : "origin/master",
       "repo" : "https://github.com/loggrio/loggr-api.git",
       "path" : "/home/node/apps/loggr-api",
-      "post-deploy" : "npm install && pm2 start ecosystem.json --env production"
+      "post-deploy" : "npm install && pm2 restart ecosystem.json --env production"
     }
   }
 }
